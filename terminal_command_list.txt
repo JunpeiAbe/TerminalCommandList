@@ -7,8 +7,15 @@ $ git init
 /// リポジトリの状態を確認
 $ git status 
 
-/// ステージ領域にファイルを追加
-$ git add
+/// ステージ領域にファイルを追加(git add .(ワイルドカード)でディレクトリの全てのファイルを指定)
+$ git add (ファイル名)
 
 /// リポジトリの歴史を記録
 $ git commit -m "First commit"
+
+/// コミットログを確認(git log (ディレクトリ名・ファイル名)で特定のログのみを表示する)
+$ git log 
+
+/// ファイル差分を表示する
+$ git log -p
+$ git log -p README.md
