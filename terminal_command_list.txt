@@ -28,3 +28,9 @@ $ git branch
 
 /// ブランチを作成し切り替える
 $ git checkout -b (ブランチ名)
+
+/// ブランチを切り替える
+$ git checkout (ブランチ名)
+
+/// ブランチをマージ(--no-ffでマージコミットの作成)
+$ git merge --no-ff (取り込みブランチ)
