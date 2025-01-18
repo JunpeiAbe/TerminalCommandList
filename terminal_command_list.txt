@@ -34,3 +34,6 @@ $ git checkout (ブランチ名)
 
 /// ブランチをマージ(--no-ffでマージコミットの作成)
 $ git merge --no-ff (取り込みブランチ)
+
+/// ブランチを視覚的に確認する
+$ git log --graph
